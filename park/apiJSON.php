@@ -1,7 +1,8 @@
 <?php
 
 // our URL as usual
-$url = "http://api.openweathermap.org/data/2.5/weather?q=dublin&units=metric&appid=2da3dbc8ea6a0bcc5279a5671419581d";
+$url = "https://touringplans.com/magic-kingdom/attractions.json";
+$url1 = "http://api.openweathermap.org/data/2.5/weather?q=dublin&units=metric&appid=2da3dbc8ea6a0bcc5279a5671419581d";
 
 // set up the HTTP request context
 $opts = array(

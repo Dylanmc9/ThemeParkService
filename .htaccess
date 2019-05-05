@@ -1,0 +1,16 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+# map neat URL to internal URL
+RewriteRule ^park/create/$   park/ParkServiceRouter.php?page_key=create [nc,qsa]
+RewriteRule ^park/create$   park/ParkServiceRouter.php?page_key=create [nc,qsa]
+
+RewriteRule ^park/retrieve/$   park/ParkServiceRouter.php?page_key=retrieve [nc,qsa]
+RewriteRule ^park/retrieve$   park/ParkServiceRouter.php?page_key=retrieve [nc,qsa]
+
+RewriteRule ^park/update/$   park/ParkServiceRouter.php?page_key=update [nc,qsa]
+RewriteRule ^park/update$   park/ParkServiceRouter.php?page_key=update [nc,qsa]
+
+RewriteRule ^park/delete/$   park/ParkServiceRouter.php?page_key=delete [nc,qsa] 
+RewriteRule ^park/delete$   park/ParkServiceRouter.php?page_key=delete [nc,qsa]
